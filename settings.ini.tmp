@@ -1,0 +1,12 @@
+[Bot Settings]
+bot_token=0123456789:AB1CD2EF3GH4IJ5KL6MN7PQ8RS9TU-VWXYZ
+admins_list=123456789,123456789
+
+[DB Settings]
+db_host=localhost
+db_user=user
+db_password=password
+db_db=storage_bot
+
+redis_host=localhost
+redis_password=password
