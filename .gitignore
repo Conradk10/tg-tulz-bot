@@ -142,3 +142,7 @@ dmypy.json
 
 # Settings
 settings.ini
+
+
+# Misc
+test/

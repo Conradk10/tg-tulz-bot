@@ -12,21 +12,11 @@ async def get_full_user_data(user_data: dict) -> dict:
     return user_data
 
 
-def send_logs(message: types.Message = None, callback_query: types.CallbackQuery = None, error=False) -> None:
+def send_logs(message: types.Message, error=None) -> None:
     """ Распечатывает логи в терминал """
-    if message:
-        data = [message.from_user.id, message.from_user.full_name, message.chat.title, message.text,
-                message.message_id]
-    elif callback_query:
-        data = [callback_query.from_user.id, callback_query.from_user.full_name, callback_query.message.chat.title,
-                callback_query.data, callback_query.message.message_id]
-    else:
-        return
-    uid, fullname, chat_name, text, message_id = data
-    if chat_name is None:
-        chat_name = "PM"
     if error: error = "red"
     else: error = "white"
-    print(f'[green bold]{datetime.datetime.now()}[/green bold] | [yellow bold]{chat_name} - ({uid}) [/yellow bold]'
-          f'[{error} bold]{fullname}[/{error} bold][yellow bold] -> [/yellow bold][{error} bold]{text} [/{error} bold]'
-          f'[yellow bold]({message_id})')
+    print(f'[green bold]{datetime.datetime.now().strftime("%d.%m.%Y %H:%M:%S")}[/green bold] | [yellow bold]'
+          f'{message.chat.id or "PM"} ({message.chat.title}) – ({message.from_user.id}) [/yellow bold]'
+          f'[{error} bold]{message.from_user.full_name}[/{error} bold][yellow bold] → [{error} bold]'
+          f'{message.text or message.content_type} [/{error} bold]({message.message_id})')
