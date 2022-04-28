@@ -2,11 +2,6 @@ from loader import dp
 from aiogram import types, html, filters
 
 
-@dp.message()
-async def big_brother(message: types.Message, user_data: dict):
-    pass
-
-
 @dp.message(content_types=types.ContentType.NEW_CHAT_MEMBERS)
 async def somebody_added(message: types.Message):
     users_list = [html.link(html.quote(user.full_name), f"tg://user?id={user.id}") for user in message.new_chat_members]

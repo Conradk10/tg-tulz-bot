@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21baddc1-83eb-4f90-944b-747af4ed570c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/handlers/user/rmkb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/main_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/main_funcs.py" afterDir="false" />
+    <list default="true" id="97d11f0e-627d-49b7-bc23-b5f787a69322" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/big_brother.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/big_brother.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/user/rmkb.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/rmkb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/user/rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/rules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/set_bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="28Nyr2sWzpxEqxJkl17ZbOXdN87" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="28Q15yysMNVLZpYETWR5hpyIz4C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,42 +26,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/handlers/user" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21baddc1-83eb-4f90-944b-747af4ed570c" name="Changes" comment="" />
-      <created>1651071544121</created>
+      <changelist id="97d11f0e-627d-49b7-bc23-b5f787a69322" name="Changes" comment="" />
+      <created>1651133819342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651071544121</updated>
-      <workItem from="1651071550650" duration="4190000" />
+      <updated>1651133819342</updated>
+      <workItem from="1651133823244" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

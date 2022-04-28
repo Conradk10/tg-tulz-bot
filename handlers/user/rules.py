@@ -1,14 +1,11 @@
-import keyboards
 from loader import dp
-from magic_filter import F
 from aiogram import types, html
 
 
 @dp.message(commands=["rules"])
 async def cmd_start(message: types.Message, user_data: dict):
     text = get_rules_text(user_data)
-    kb = None
-    await message.reply(text, reply_markup=kb)
+    await message.reply(text)
 
 
 def get_rules_text(user_data: dict):

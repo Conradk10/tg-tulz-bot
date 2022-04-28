@@ -1,2 +1,3 @@
-# 🤖 Tulz Bot
-Шаблон для создания масштабируемого бота с помощью Aiogram 3.x
+<p align="center">
+    <a href="https://github.com/Conradk10/tg-tulz-bot"><img src="https://i.imgur.com/UalGlNX.jpeg" alt="Tulz bot"></a>
+</p>
