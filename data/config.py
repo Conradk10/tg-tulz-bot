@@ -8,6 +8,11 @@ BOT_TOKEN = config["Bot Settings"]["bot_token"]
 
 admins = config["Bot Settings"]["admins_list"]
 
+instagram = {
+    'login':    config["Instagram"]["login"],
+    'password': config["Instagram"]["password"],
+}
+
 ip = {
     'db':    config["DB Settings"]["db_host"],
     'redis': config["DB Settings"]["redis_host"],

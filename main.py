@@ -1,3 +1,4 @@
+import asyncio
 from rich import print
 from loader import bot, dp
 from utils.db_api.sqliter import connection
@@ -11,6 +12,7 @@ async def on_startup():
     middlewares.setup(dp)
     await bot.delete_webhook(drop_pending_updates=True)
     await set_bot_commands(bot)
+
     print("[bold green]✅ Бот успешно запущен!")
 
 

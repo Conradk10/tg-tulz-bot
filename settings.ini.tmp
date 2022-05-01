@@ -10,3 +10,7 @@ db_db=storage_bot
 
 redis_host=localhost
 redis_password=password
+
+[Instagram]
+login=login
+password=password

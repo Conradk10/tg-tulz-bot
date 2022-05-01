@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d11f0e-627d-49b7-bc23-b5f787a69322" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/handlers/insta_uploader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/user/webapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/big_brother.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/big_brother.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/user/rmkb.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/rmkb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/user/rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/user/rules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/set_bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.ini.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/settings.ini.tmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,9 +40,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/handlers/user" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/handlers/user" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -41,11 +58,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651133819342</updated>
-      <workItem from="1651133823244" duration="1259000" />
+      <workItem from="1651133823244" duration="1605000" />
+      <workItem from="1651154533635" duration="3243000" />
+      <workItem from="1651434358265" duration="3592000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
